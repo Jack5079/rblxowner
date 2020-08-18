@@ -53,14 +53,17 @@
     opacity: .5;
   }
 }
+
 footer img {
   margin-right: 1em;
 }
+
 footer {
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 html {
   height: 100%;
   display: flex;
