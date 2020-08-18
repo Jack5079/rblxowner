@@ -1,0 +1,59 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: black;
+  color: white;
+}
+
+a {
+  color: skyblue;
+}
+
+h2 a {
+  text-decoration: none;
+}
+code {
+  background: darkslategray;
+  border-radius: 5px;
+  padding: 0.5em;
+  border: 0.1em solid lightslategray;
+}
+blockquote {
+  background: darkslategray;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+time {
+  margin-left: 0.5ch;
+}
+blockquote::before {
+  content: '💡';
+  padding: 1em;
+  font-size: 2em;
+}
+
+.warn {
+  background: green;
+}
+
+.warn::before {
+  content: '⚠';
+}
+
+.success {
+  background: greenyellow;
+  color: black;
+}
+
+.success::before {
+  content: '✔';
+}
+
+.error {
+  background: red;
+}
+
+.error::before {
+  content: '✖'
+}
