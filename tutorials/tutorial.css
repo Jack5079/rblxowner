@@ -11,12 +11,14 @@ a {
 h2 a {
   text-decoration: none;
 }
+
 code {
   background: darkslategray;
   border-radius: 5px;
   padding: 0.5em;
   border: 0.1em solid lightslategray;
 }
+
 blockquote {
   background: darkslategray;
   border-radius: 5px;
@@ -27,6 +29,7 @@ blockquote {
 time {
   margin-left: 0.5ch;
 }
+
 blockquote::before {
   content: '💡';
   padding: 1em;
@@ -51,9 +54,17 @@ blockquote::before {
 }
 
 .error {
-  background: red;
+  background: #cc0000;
 }
 
 .error::before {
   content: '✖'
+}
+
+.yt {
+  background: #ff0033;
+}
+
+.yt::before {
+  content: '▶ '
 }
